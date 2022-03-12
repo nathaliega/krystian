@@ -1,16 +1,16 @@
 
-def swap(mylist):
-    mylist[0], mylist[-1] = mylist[-1], mylist[0]
-    return mylist
 
-mylist = input('input list: ').replace(" ", "").split(',')
+mystring = input('Input a string: ')
 
-print('hello')
+def palimetry(mystring):
+    if len(mystring) % 2 == 0:
+        print('String is symmetric')
+    else:
+        print('String is not symmetric')
 
-def list_reverse(mylist):
-    print(mylist[::-1])
+    if mystring == mystring[::-1]:
+        print('String is palindrome')
+    else:
+        print("Strinf is no palindorme")
 
-print('hi')
-
-print(swap(mylist))
-list_reverse(mylist)
+palimetry(mystring)
