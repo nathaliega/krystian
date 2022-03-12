@@ -4,6 +4,6 @@ def swap(mylist):
     return mylist
 
 mylist = input('input list: ').replace(" ", "").split(',')
-
+print('hello')
 
 print(swap(mylist))
