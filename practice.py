@@ -6,6 +6,7 @@ def even_words(mystring):
     words = mystring.split(' ')
     hi
     krystian
+    nathalie
     
 
 even_words(mystring)
