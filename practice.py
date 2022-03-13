@@ -1,16 +1,10 @@
 
 
-mystring = input('Input a string: ')
+mystring = input('Enter a string: ')
 
-def palimetry(mystring):
-    if len(mystring) % 2 == 0:
-        print('String is symmetric')
-    else:
-        print('String is not symmetric')
+def even_words(mystring):
+    words = mystring.split(' ')
+    
 
-    if mystring == mystring[::-1]:
-        print('String is palindrome')
-    else:
-        print("Strinf is no palindorme")
+even_words(mystring)
 
-palimetry(mystring)
